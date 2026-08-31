@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
     pair<int, char> p1;
-    p1 = make_pair(2, 'b');
+    // p1 = make_pair(2, 'b');
+    p1 = {11,'g'};
     cout << p1.first << " " << p1.second << endl;
 
     pair<int,int>p(1,2);
