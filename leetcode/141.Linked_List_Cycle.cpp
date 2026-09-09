@@ -1,3 +1,30 @@
+// class Solution {
+// public:
+//     bool hasCycle(ListNode *head) {
+//         if(!head || !head->next)
+//         {
+//             return false;
+//         }
+        
+//         while(head) 
+//         {
+//             if(head->val == INT_MIN) 
+//             {
+//                 return true;  
+//             }
+//             head->val = INT_MIN;  
+//             head = head->next;        
+//         }
+//         return false; 
+//     }
+// };
+
+
+
+
+
+
+
 // /**
 //  * Definition for singly-linked list.
 //  * struct ListNode {
