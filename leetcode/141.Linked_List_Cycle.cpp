@@ -19,11 +19,27 @@
 //     }
 // };
 
-
-
-
-
-
+// class Solution {
+// public:
+//     bool hasCycle(ListNode *head) {
+//         if(!head || !head->next)
+//         {
+//             return false;
+//         }
+//         unordered_map<ListNode*, bool>mp;
+        
+//         while(head) 
+//         {
+//             if(mp[head]) 
+//             {
+//                 return true;  
+//             }
+//             mp[head] = true;  
+//             head = head->next;        
+//         }
+//         return false; 
+//     }
+// };
 
 // /**
 //  * Definition for singly-linked list.
