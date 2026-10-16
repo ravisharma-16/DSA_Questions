@@ -158,3 +158,41 @@
 //         return -1;
 //     }
 // };
+
+
+
+
+// class Solution {
+//     long long solve(int check,vector<int>&piles)
+//     {
+//         long long hours = 0;
+//         for(int p : piles)
+//         {
+//             hours += p/check;
+//             if(p%check != 0)
+//             {
+//                 hours++;
+//             } 
+//         }
+//         return hours;
+//     }
+// public:
+//     int minEatingSpeed(vector<int>& piles, int h) {
+//         int max = *max_element(piles.begin(), piles.end());
+//         int st = 1,end = max,ans = 0;
+//         while(st <= end)
+//         {
+//             int mid = st + (end - st) / 2;
+//             if(solve(mid,piles) <= h)
+//             {
+//                 ans = mid;
+//                 end = mid - 1;
+//             }
+//             else
+//             {
+//                 st = mid + 1;
+//             }
+//         }
+//         return ans;
+//     }
+// };
