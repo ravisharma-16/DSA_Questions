@@ -1,27 +1,27 @@
 
 // Standard Queue
-// #include <iostream>
-// #include <queue>
-// using namespace std;
+#include <iostream>
+#include <queue>
+using namespace std;
 
-// int main() {
-//     queue<int> q;
+int main() {
+    queue<int> q;
     
-//     // Adding elements
-//     q.push(10);
-//     q.push(20);
-//     q.push(30);
+    // Adding elements
+    q.push(10);
+    q.push(20);
+    q.push(30);
     
-//     cout << "Front: " << q.front() << endl;  // 10
-//     cout << "Back: " << q.back() << endl;    // 30
-//     cout << "Size: " << q.size() << endl;    // 3
+    cout << "Front: " << q.front() << endl;  // 10
+    cout << "Back: " << q.back() << endl;    // 30
+    cout << "Size: " << q.size() << endl;    // 3
     
-//     // Removing elements (FIFO)
-//     q.pop();  // Removes 10
-//     cout << "Front after pop: " << q.front() << endl;  // 20
+    // Removing elements (FIFO)
+    q.pop();  // Removes 10
+    cout << "Front after pop: " << q.front() << endl;  // 20
     
-//     return 0;
-// }
+    return 0;
+}
 
 
 // Priority Queue
