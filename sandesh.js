@@ -27,7 +27,7 @@
 // console.log(`kitna hogya hai paise ${val}`);
 
 // let x = [1,2,3,4,5];
-// const v = x.map((e) => {return e > 3 ? e : null});
+// const v = x.map((e) => ( e > 3 ? e : null));
 // console.log(v);
 
 // i am ravi
@@ -96,7 +96,7 @@
 //             z.push(y[i]);
 //         }
 //     }
-//     console.log(z);
+    // console.log(z);
 
 
 
@@ -410,14 +410,14 @@
 
 
 
-function abc(a,b,c) //function.length = Number of parameters before the first parameter with a default value.
-{
+// function abc(a,b,c) //function.length = Number of parameters before the first parameter with a default value.
+// {
 
-}
-function pqr(a=0,b,c) {
+// }
+// function pqr(a=0,b,c) {
     
-}
-console.log(abc.length,"  ",pqr.length);
+// }
+// console.log(abc.length,"  ",pqr.length);
 
 
 
